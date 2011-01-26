@@ -8,3 +8,5 @@ Redmine::Plugin.register :redmine_remaining_time do
   url 'https://github.com/kzgs/redmine_remaining_time'
   author_url 'https://github.com/kzgs'
 end
+
+require_dependency 'redmine_remaining_time/hooks'
